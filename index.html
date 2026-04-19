@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#050612" />
     <title>GrozavBank — Banking built for the digital generation</title>
+    <link rel="icon" type="image/svg+xml" href="assets/grozavbank-logo.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,27 +24,273 @@
     <link rel="stylesheet" href="styles/responsive.css" />
   </head>
   <body>
+    <svg
+      class="ui-icons"
+      aria-hidden="true"
+      width="0"
+      height="0"
+      style="position:absolute;width:0;height:0;overflow:hidden"
+    >
+      <defs>
+        <symbol id="icon-home" viewBox="0 0 24 24">
+          <path
+            d="M4.5 10.5 12 4l7.5 6.5V19A1.5 1.5 0 0 1 18 20.5H6A1.5 1.5 0 0 1 4.5 19z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-accounts" viewBox="0 0 24 24">
+          <rect
+            x="4"
+            y="6"
+            width="16"
+            height="12"
+            rx="2.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          />
+          <path
+            d="M4 10.5h16"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-transfer" viewBox="0 0 24 24">
+          <path
+            d="M5 12h11m0 0-3-3m3 3-3 3"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-card" viewBox="0 0 24 24">
+          <rect
+            x="4"
+            y="7"
+            width="16"
+            height="10"
+            rx="2.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-analytics" viewBox="0 0 24 24">
+          <path
+            d="M4 19.5h16M7 16v-5m5 5V6.5m5 9.5V9"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-settings" viewBox="0 0 24 24">
+          <path
+            d="M12 8.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          />
+          <path
+            d="M19.3 13.5a1 1 0 0 0 .2 1.1l.1.1a1.9 1.9 0 1 1-2.7 2.7l-.1-.1a1 1 0 0 0-1.1-.2 1 1 0 0 0-.6.9v.3a1.9 1.9 0 1 1-3.8 0V18a1 1 0 0 0-.6-.9 1 1 0 0 0-1.1.2l-.1.1a1.9 1.9 0 1 1-2.7-2.7l.1-.1a1 1 0 0 0 .2-1.1 1 1 0 0 0-.9-.6h-.3a1.9 1.9 0 1 1 0-3.8H5a1 1 0 0 0 .9-.6 1 1 0 0 0-.2-1.1l-.1-.1a1.9 1.9 0 1 1 2.7-2.7l.1.1a1 1 0 0 0 1.1.2 1 1 0 0 0 .6-.9V5a1.9 1.9 0 1 1 3.8 0v.3a1 1 0 0 0 .6.9 1 1 0 0 0 1.1-.2l.1-.1a1.9 1.9 0 1 1 2.7 2.7l-.1.1a1 1 0 0 0-.2 1.1 1 1 0 0 0 .9.6h.3a1.9 1.9 0 1 1 0 3.8H20a1 1 0 0 0-.7.3Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.4"
+          />
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 24 24">
+          <circle
+            cx="11"
+            cy="11"
+            r="6.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          />
+          <path
+            d="m16 16 4 4"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-bell" viewBox="0 0 24 24">
+          <path
+            d="M6.5 9a5.5 5.5 0 1 1 11 0v4l1.8 2.2H4.7L6.5 13z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+          <path
+            d="M10 18a2 2 0 0 0 4 0"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-invite" viewBox="0 0 24 24">
+          <circle
+            cx="10"
+            cy="8"
+            r="3"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          />
+          <path
+            d="M4.5 18.5A5.5 5.5 0 0 1 10 14h1"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+          <path
+            d="M17 7v6m-3-3h6"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-plus" viewBox="0 0 24 24">
+          <path
+            d="M12 6v12M6 12h12"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-send" viewBox="0 0 24 24">
+          <path
+            d="M7 17 17 7M9 7h8v8"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-exchange" viewBox="0 0 24 24">
+          <path
+            d="M6 8h11m0 0-2.5-2.5M17 8l-2.5 2.5M18 16H7m0 0 2.5-2.5M7 16l2.5 2.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-more" viewBox="0 0 24 24">
+          <circle cx="6" cy="12" r="1.8" fill="currentColor" />
+          <circle cx="12" cy="12" r="1.8" fill="currentColor" />
+          <circle cx="18" cy="12" r="1.8" fill="currentColor" />
+        </symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24">
+          <path
+            d="m14.5 6-6 6 6 6"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+          <path
+            d="m7 10 5 5 5-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.8"
+          />
+        </symbol>
+        <symbol id="icon-check" viewBox="0 0 24 24">
+          <path
+            d="m5 12 4.5 4.5L19 7"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2.2"
+          />
+        </symbol>
+        <symbol id="icon-spotify" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" fill="currentColor" />
+        </symbol>
+        <symbol id="icon-airbnb" viewBox="0 0 24 24">
+          <path d="M12 3 21 20H3Z" fill="currentColor" />
+        </symbol>
+        <symbol id="icon-starbucks" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" fill="currentColor" />
+        </symbol>
+        <symbol id="icon-apple" viewBox="0 0 24 24">
+          <rect x="6" y="5" width="12" height="14" rx="2" fill="currentColor" />
+        </symbol>
+        <symbol id="icon-flag-eur" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10.5" fill="#0B3FB4" />
+          <circle cx="12" cy="12" r="3.1" fill="#FFCC21" />
+        </symbol>
+        <symbol id="icon-flag-gbp" viewBox="0 0 24 24">
+          <defs>
+            <clipPath id="clip-flag-gbp">
+              <circle cx="12" cy="12" r="10.5" />
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip-flag-gbp)">
+            <rect width="24" height="24" fill="#0A2C89" />
+            <path d="M0 0 24 24M24 0 0 24" stroke="#fff" stroke-width="5" />
+            <path d="M0 0 24 24M24 0 0 24" stroke="#C8102E" stroke-width="2.4" />
+            <path d="M12 0v24M0 12h24" stroke="#fff" stroke-width="6" />
+            <path d="M12 0v24M0 12h24" stroke="#C8102E" stroke-width="3.2" />
+          </g>
+        </symbol>
+        <symbol id="icon-flag-usd" viewBox="0 0 24 24">
+          <defs>
+            <clipPath id="clip-flag-usd">
+              <circle cx="12" cy="12" r="10.5" />
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip-flag-usd)">
+            <rect width="24" height="24" fill="#fff" />
+            <path d="M0 2h24v2.5H0zm0 5h24v2.5H0zm0 5h24v2.5H0zm0 5h24V19.5H0z" fill="#C73743" />
+            <rect width="10.5" height="10.5" fill="#27408B" />
+            <circle cx="3.2" cy="3.1" r="0.8" fill="#fff" />
+            <circle cx="6" cy="5" r="0.8" fill="#fff" />
+            <circle cx="8.5" cy="3.1" r="0.8" fill="#fff" />
+            <circle cx="3.8" cy="7.3" r="0.8" fill="#fff" />
+            <circle cx="7.2" cy="7.6" r="0.8" fill="#fff" />
+          </g>
+        </symbol>
+      </defs>
+    </svg>
+
     <!-- ============ NAVBAR ============ -->
     <header class="nav" data-nav>
       <div class="container nav__inner">
         <a class="brand" href="#top" aria-label="GrozavBank home">
           <span class="brand__mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="22" height="22">
-              <defs>
-                <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stop-color="#A78BFA" />
-                  <stop offset="1" stop-color="#7C3AED" />
-                </linearGradient>
-              </defs>
-              <path
-                d="M12 2l8 4v6c0 4.5-3.3 8.5-8 10-4.7-1.5-8-5.5-8-10V6l8-4z"
-                fill="url(#gbg)"
-              />
-              <path
-                d="M12 8.2a3.8 3.8 0 100 7.6 3.8 3.8 0 002.7-1.1h-2.7v-1.6h4.3v.1a5.3 5.3 0 11-1.6-3.8l-1.2 1.2A3.8 3.8 0 0012 8.2z"
-                fill="#fff"
-              />
-            </svg>
+            <img
+              class="brand__logo"
+              src="assets/grozavbank-logo.svg"
+              alt=""
+              width="32"
+              height="32"
+            />
           </span>
           <span class="brand__name">GrozavBank</span>
         </a>
@@ -247,7 +494,9 @@
                       <p class="p-home__name">Radu</p>
                     </div>
                     <button class="p-icon-btn" aria-label="Notifications">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 8a6 6 0 1112 0v5l2 2H4l2-2V8z" stroke="#fff" stroke-width="1.5"/><path d="M10 18a2 2 0 004 0" stroke="#fff" stroke-width="1.5"/></svg>
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-bell"></use>
+                      </svg>
                     </button>
                   </div>
 
@@ -260,10 +509,38 @@
                   </div>
 
                   <div class="p-actions">
-                    <button class="p-action"><span class="p-action__icon">+</span>Add</button>
-                    <button class="p-action"><span class="p-action__icon">↗</span>Send</button>
-                    <button class="p-action"><span class="p-action__icon">⇄</span>Exchange</button>
-                    <button class="p-action"><span class="p-action__icon">•••</span>More</button>
+                    <button class="p-action">
+                      <span class="p-action__icon" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 24 24">
+                          <use href="#icon-plus"></use>
+                        </svg>
+                      </span>
+                      Add
+                    </button>
+                    <button class="p-action">
+                      <span class="p-action__icon" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 24 24">
+                          <use href="#icon-send"></use>
+                        </svg>
+                      </span>
+                      Send
+                    </button>
+                    <button class="p-action">
+                      <span class="p-action__icon" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 24 24">
+                          <use href="#icon-exchange"></use>
+                        </svg>
+                      </span>
+                      Exchange
+                    </button>
+                    <button class="p-action">
+                      <span class="p-action__icon" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 24 24">
+                          <use href="#icon-more"></use>
+                        </svg>
+                      </span>
+                      More
+                    </button>
                   </div>
 
                   <div class="p-section">
@@ -274,28 +551,36 @@
                     <ul class="p-tx">
                       <li>
                         <span class="p-tx__icon" style="background:#1db95422">
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="#1DB954"><circle cx="12" cy="12" r="10"/></svg>
+                          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" style="color:#1DB954">
+                            <use href="#icon-spotify"></use>
+                          </svg>
                         </span>
                         <div class="p-tx__main"><span>Spotify</span><span class="p-tx__meta">Subscription · Today</span></div>
                         <span class="p-tx__amt">-$12.99</span>
                       </li>
                       <li>
                         <span class="p-tx__icon" style="background:#ff5a5f22">
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="#ff5a5f"><path d="M12 2l10 20H2z"/></svg>
+                          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" style="color:#ff5a5f">
+                            <use href="#icon-airbnb"></use>
+                          </svg>
                         </span>
                         <div class="p-tx__main"><span>Airbnb</span><span class="p-tx__meta">Travel · Yesterday</span></div>
                         <span class="p-tx__amt">-$240.00</span>
                       </li>
                       <li>
                         <span class="p-tx__icon" style="background:#0e6c5022">
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="#0e6c50"><circle cx="12" cy="12" r="10"/></svg>
+                          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" style="color:#0e6c50">
+                            <use href="#icon-starbucks"></use>
+                          </svg>
                         </span>
                         <div class="p-tx__main"><span>Starbucks</span><span class="p-tx__meta">Coffee · 2 days ago</span></div>
                         <span class="p-tx__amt">-$8.40</span>
                       </li>
                       <li>
                         <span class="p-tx__icon" style="background:#9fe87022;color:#9FE870">
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="#9FE870"><path d="M4 12l6 6L20 6" stroke="#9FE870" stroke-width="3" fill="none"/></svg>
+                          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true">
+                            <use href="#icon-check"></use>
+                          </svg>
                         </span>
                         <div class="p-tx__main"><span>Incoming transfer</span><span class="p-tx__meta">From Mara · 3 days</span></div>
                         <span class="p-tx__amt p-tx__amt--pos">+$1,200.00</span>
@@ -340,10 +625,16 @@
                   </div>
 
                   <div class="p-card-head">
-                    <button class="p-back" aria-label="Back">‹</button>
+                    <button class="p-back" aria-label="Back">
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-chevron-left"></use>
+                      </svg>
+                    </button>
                     <h4>Card theme</h4>
                     <button class="p-icon-btn" aria-label="Options">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-more"></use>
+                      </svg>
                     </button>
                   </div>
 
@@ -351,7 +642,7 @@
                     <div class="p-card-hero__card">
                       <span class="p-card-hero__brand">GrozavBank</span>
                       <span class="p-card-hero__chip"></span>
-                      <span class="p-card-hero__num">••••  2048</span>
+                      <span class="p-card-hero__num">&bull;&bull;&bull;&bull; 2048</span>
                       <span class="p-card-hero__name">R. GROZAV</span>
                     </div>
                   </div>
@@ -393,7 +684,12 @@
 
                   <div class="p-insights-head">
                     <h4>Monthly spending</h4>
-                    <button class="p-chip">April ▾</button>
+                    <button class="p-chip">
+                      April
+                      <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-chevron-down"></use>
+                      </svg>
+                    </button>
                   </div>
 
                   <div class="p-spend">
@@ -466,36 +762,51 @@
               <aside class="app__side">
                 <div class="app__brand">
                   <span class="brand__mark brand__mark--sm" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" width="18" height="18">
-                      <path d="M12 2l8 4v6c0 4.5-3.3 8.5-8 10-4.7-1.5-8-5.5-8-10V6l8-4z" fill="#7C3AED"/>
-                      <path d="M12 8.2a3.8 3.8 0 100 7.6 3.8 3.8 0 002.7-1.1h-2.7v-1.6h4.3v.1a5.3 5.3 0 11-1.6-3.8l-1.2 1.2A3.8 3.8 0 0012 8.2z" fill="#fff"/>
-                    </svg>
+                    <img
+                      class="brand__logo"
+                      src="assets/grozavbank-logo.svg"
+                      alt=""
+                      width="26"
+                      height="26"
+                    />
                   </span>
                   <span>GrozavBank</span>
                 </div>
                 <nav class="app__nav" aria-label="Dashboard">
                   <a href="#">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 11l9-8 9 8v10H3V11z" stroke="#6B7280" stroke-width="1.6"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-home"></use>
+                    </svg>
                     Home
                   </a>
                   <a href="#" class="is-active">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#111827" stroke-width="1.6"/><path d="M3 10h18" stroke="#111827" stroke-width="1.6"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-accounts"></use>
+                    </svg>
                     Accounts
                   </a>
                   <a href="#">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12h12l-3-3M20 12l-3 3M20 12H8" stroke="#6B7280" stroke-width="1.6"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-transfer"></use>
+                    </svg>
                     Transfers
                   </a>
                   <a href="#">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="2" stroke="#6B7280" stroke-width="1.6"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-card"></use>
+                    </svg>
                     Cards
                   </a>
                   <a href="#">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2" stroke="#6B7280" stroke-width="1.6"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-analytics"></use>
+                    </svg>
                     Analytics
                   </a>
                   <a href="#">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#6B7280" stroke-width="1.6"/><path d="M19.4 15a1.7 1.7 0 00.4 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-2.9 1.2V21a2 2 0 01-4 0v-.1a1.7 1.7 0 00-2.9-1.2l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00-1.2-2.9H3a2 2 0 010-4h.1A1.7 1.7 0 004.3 7l-.1-.1a2 2 0 112.8-2.8l.1.1A1.7 1.7 0 009 5.4V5a2 2 0 014 0v.1a1.7 1.7 0 002.9 1.2l.1-.1a2 2 0 012.8 2.8l-.1.1A1.7 1.7 0 0021 11h.4" stroke="#6B7280" stroke-width="1.2"/></svg>
+                    <svg class="app__nav-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#icon-settings"></use>
+                    </svg>
                     Settings
                   </a>
                 </nav>
@@ -516,11 +827,15 @@
                   </div>
                   <div class="app__top-right">
                     <div class="app__search">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="#9CA3AF" stroke-width="1.6"/><path d="M20 20l-3.5-3.5" stroke="#9CA3AF" stroke-width="1.6"/></svg>
+                      <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-search"></use>
+                      </svg>
                       <input type="text" placeholder="Search transactions, people..." />
                     </div>
-                    <button class="app__icon" aria-label="Notifications">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 8a6 6 0 1112 0v5l2 2H4l2-2V8z" stroke="#374151" stroke-width="1.6"/></svg>
+                    <button class="app__icon" aria-label="Invite user">
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <use href="#icon-invite"></use>
+                      </svg>
                       <span class="app__icon-dot"></span>
                     </button>
                     <div class="app__avatar">RG</div>
@@ -532,30 +847,40 @@
                     <div class="acc-cards">
                       <article class="acc-card">
                         <div class="acc-card__head">
-                          <span class="flag flag--eur" aria-hidden="true"></span>
+                          <svg class="flag flag--eur" viewBox="0 0 24 24" aria-hidden="true">
+                            <use href="#icon-flag-eur"></use>
+                          </svg>
                           <span class="acc-card__trend">+2.4%</span>
                         </div>
-                        <div class="acc-card__bal">€8,420<span>.00</span></div>
-                        <div class="acc-card__label">EUR account · DE21 ••• 4012</div>
+                        <div class="acc-card__bal">&euro;8,420<span>.00</span></div>
+                        <div class="acc-card__label">EUR account &middot; DE21 &bull;&bull;&bull; 4012</div>
                       </article>
                       <article class="acc-card">
                         <div class="acc-card__head">
-                          <span class="flag flag--gbp" aria-hidden="true"></span>
+                          <svg class="flag flag--gbp" viewBox="0 0 24 24" aria-hidden="true">
+                            <use href="#icon-flag-gbp"></use>
+                          </svg>
                           <span class="acc-card__trend">+0.8%</span>
                         </div>
-                        <div class="acc-card__bal">£2,180<span>.40</span></div>
-                        <div class="acc-card__label">GBP account · GB44 ••• 7812</div>
+                        <div class="acc-card__bal">&pound;2,180<span>.40</span></div>
+                        <div class="acc-card__label">GBP account &middot; GB44 &bull;&bull;&bull; 7812</div>
                       </article>
                       <article class="acc-card">
                         <div class="acc-card__head">
-                          <span class="flag flag--usd" aria-hidden="true"></span>
+                          <svg class="flag flag--usd" viewBox="0 0 24 24" aria-hidden="true">
+                            <use href="#icon-flag-usd"></use>
+                          </svg>
                           <span class="acc-card__trend acc-card__trend--neg">-1.1%</span>
                         </div>
                         <div class="acc-card__bal">$12,840<span>.50</span></div>
-                        <div class="acc-card__label">USD account · US99 ••• 0326</div>
+                        <div class="acc-card__label">USD account &middot; US99 &bull;&bull;&bull; 0326</div>
                       </article>
                       <button class="acc-card acc-card--add" aria-label="Open new account">
-                        <span class="acc-card__plus">+</span>
+                        <span class="acc-card__plus" aria-hidden="true">
+                          <svg width="14" height="14" viewBox="0 0 24 24">
+                            <use href="#icon-plus"></use>
+                          </svg>
+                        </span>
                         <span>Open new account</span>
                         <span class="acc-card__note">40+ currencies</span>
                       </button>
@@ -576,7 +901,9 @@
                       <ul class="tx-list">
                         <li class="tx">
                           <span class="tx__icon" style="background:#1db95418;color:#1DB954">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                              <use href="#icon-spotify"></use>
+                            </svg>
                           </span>
                           <div class="tx__body"><span class="tx__name">Spotify Premium</span><span class="tx__sub">Subscription · 19 Apr</span></div>
                           <span class="tx__cat">Entertainment</span>
@@ -584,7 +911,9 @@
                         </li>
                         <li class="tx">
                           <span class="tx__icon" style="background:#ff5a5f18;color:#ff5a5f">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l10 20H2z"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                              <use href="#icon-airbnb"></use>
+                            </svg>
                           </span>
                           <div class="tx__body"><span class="tx__name">Airbnb · Lisbon</span><span class="tx__sub">Travel · 18 Apr</span></div>
                           <span class="tx__cat">Travel</span>
@@ -592,7 +921,9 @@
                         </li>
                         <li class="tx">
                           <span class="tx__icon" style="background:#0e6c5018;color:#0E6C50">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                              <use href="#icon-starbucks"></use>
+                            </svg>
                           </span>
                           <div class="tx__body"><span class="tx__name">Starbucks</span><span class="tx__sub">Food &amp; Drink · 17 Apr</span></div>
                           <span class="tx__cat">Food</span>
@@ -600,7 +931,9 @@
                         </li>
                         <li class="tx">
                           <span class="tx__icon" style="background:#11111818;color:#111">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="4" width="14" height="16" rx="2"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                              <use href="#icon-apple"></use>
+                            </svg>
                           </span>
                           <div class="tx__body"><span class="tx__name">Apple · iCloud+</span><span class="tx__sub">Subscription · 16 Apr</span></div>
                           <span class="tx__cat">Subscriptions</span>
@@ -608,7 +941,9 @@
                         </li>
                         <li class="tx">
                           <span class="tx__icon" style="background:#22c55e18;color:#22C55E">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l6 6L20 6" stroke="currentColor" stroke-width="3"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                              <use href="#icon-check"></use>
+                            </svg>
                           </span>
                           <div class="tx__body"><span class="tx__name">Incoming transfer</span><span class="tx__sub">From Mara I. · 15 Apr</span></div>
                           <span class="tx__cat">Transfer</span>
@@ -873,10 +1208,13 @@
           <div class="footer__brand">
             <a class="brand brand--footer" href="#top">
               <span class="brand__mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20">
-                  <path d="M12 2l8 4v6c0 4.5-3.3 8.5-8 10-4.7-1.5-8-5.5-8-10V6l8-4z" fill="#7C3AED"/>
-                  <path d="M12 8.2a3.8 3.8 0 100 7.6 3.8 3.8 0 002.7-1.1h-2.7v-1.6h4.3v.1a5.3 5.3 0 11-1.6-3.8l-1.2 1.2A3.8 3.8 0 0012 8.2z" fill="#fff"/>
-                </svg>
+                <img
+                  class="brand__logo"
+                  src="assets/grozavbank-logo.svg"
+                  alt=""
+                  width="32"
+                  height="32"
+                />
               </span>
               <span class="brand__name">GrozavBank</span>
             </a>

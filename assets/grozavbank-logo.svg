@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GrozavBank logo">
+  <defs>
+    <linearGradient id="tile" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1B1739" />
+      <stop offset="0.55" stop-color="#11172F" />
+      <stop offset="1" stop-color="#0B0F22" />
+    </linearGradient>
+    <linearGradient id="tileInner" x1="13" y1="12" x2="50" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231C48" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#0D1124" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="shield" x1="22" y1="18" x2="42" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B89CFF" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(32 18) rotate(90) scale(28 26)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="18" fill="url(#tile)" stroke="#3B2A76" stroke-opacity="0.7" />
+  <rect x="8" y="8" width="48" height="48" rx="15" fill="url(#tileInner)" />
+  <rect x="8" y="8" width="48" height="48" rx="15" fill="url(#glow)" />
+  <path d="M32 16.2 43.2 21.4v8.7c0 9.4-6.8 16.1-11.2 18.7-4.4-2.6-11.2-9.3-11.2-18.7v-8.7L32 16.2Z" fill="url(#shield)" />
+  <path d="M32.5 24.1c-4.3 0-7.2 2.9-7.2 6.9 0 4.1 2.9 7 7.3 7 2.5 0 4.6-.8 6.1-2.3h-6.1v-2.9h9.7v0.3c0 5.2-3.9 8.5-9.8 8.5-6.4 0-10.7-4.4-10.7-10.5 0-6 4.5-10.5 10.7-10.5 3.2 0 5.9 1 7.9 3l-2.5 2.3c-1.3-1.2-3.1-1.8-5.4-1.8Z" fill="#FFFFFF" />
+</svg>
