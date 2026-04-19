@@ -1,0 +1,369 @@
+/* ============================================================
+   GrozavBank — Responsive
+   Breakpoints: 1100, 960, 760, 540
+   ============================================================ */
+
+/* ---------- large desktop / small desktop ---------- */
+@media (max-width: 1100px) {
+  .acc-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .app__body {
+    grid-template-columns: 1fr 300px;
+  }
+
+  .feat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__visual .bankcard {
+    width: 280px;
+  }
+
+  .hero__visual .bankcard--violet {
+    left: 30px;
+  }
+}
+
+/* ---------- tablet ---------- */
+@media (max-width: 960px) {
+  .hero {
+    padding: 130px 0 80px;
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 80px;
+    text-align: left;
+  }
+
+  .hero__visual {
+    min-height: 360px;
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero__visual .bankcard {
+    width: 260px;
+  }
+
+  .hero__visual .bankcard--violet {
+    left: 20px;
+  }
+
+  .hero__visual .bankcard--graphite {
+    right: 10px;
+    top: 90px;
+  }
+
+  .hero__visual .bankcard--light {
+    left: 40px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .phones {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 640px;
+  }
+
+  .phones .phone:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 280px;
+    transform: none;
+  }
+
+  .phones .phone:nth-child(1),
+  .phones .phone:nth-child(2) {
+    transform: none;
+  }
+
+  .app {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .app__side {
+    display: none;
+  }
+
+  .app__body {
+    grid-template-columns: 1fr;
+    padding: 18px 18px 22px;
+  }
+
+  .acc-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .send {
+    order: 1;
+  }
+
+  .security__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .security__visual {
+    order: -1;
+  }
+
+  .plans {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* ---------- mobile ---------- */
+@media (max-width: 760px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .nav {
+    padding: 12px 0;
+  }
+
+  .nav__links,
+  .nav__actions {
+    display: none;
+  }
+
+  .nav__burger {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .nav__mobile[hidden="false"],
+  .nav__mobile:not([hidden]) {
+    display: flex;
+  }
+
+  .hero {
+    padding: 120px 0 70px;
+  }
+
+  .hero__title {
+    font-size: 34px;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    letter-spacing: -0.02em;
+  }
+
+  .section-sub {
+    font-size: 14.5px;
+  }
+
+  .cta__title {
+    font-size: 32px;
+  }
+
+  .hero__ctas .btn {
+    width: 100%;
+  }
+
+  .hero__visual {
+    min-height: 320px;
+  }
+
+  .hero__visual .bankcard {
+    width: 240px;
+    padding: 18px 20px;
+  }
+
+  .hero__visual .bankcard--violet {
+    left: 0;
+    top: 0;
+  }
+
+  .hero__visual .bankcard--graphite {
+    right: 0;
+    top: 80px;
+  }
+
+  .hero__visual .bankcard--light {
+    left: 20px;
+    bottom: -10px;
+  }
+
+  .bankcard__number {
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .mobile-showcase,
+  .dashboard,
+  .features,
+  .security,
+  .pricing,
+  .cta {
+    padding: 80px 0;
+  }
+
+  .section-head {
+    margin-bottom: 36px;
+  }
+
+  .phones {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+  }
+
+  .phones .phone:nth-child(3) {
+    grid-column: auto;
+  }
+
+  .window__url {
+    display: none;
+  }
+
+  .app__top {
+    padding: 14px 16px;
+  }
+
+  .app__search {
+    display: none;
+  }
+
+  .app__top h3 {
+    font-size: 16px;
+  }
+
+  .acc-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .tx-panel {
+    padding: 14px 14px 6px;
+  }
+
+  .tx {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .tx__cat {
+    display: none;
+  }
+
+  .feat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta__actions .btn {
+    width: 100%;
+  }
+
+  .footer__cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    letter-spacing: -0.02em;
+  }
+
+  .hero__visual {
+    min-height: 280px;
+  }
+
+  .hero__visual .bankcard {
+    width: 210px;
+    padding: 16px 18px;
+  }
+
+  .hero__visual .bankcard--violet {
+    left: -10px;
+    top: 0;
+  }
+
+  .hero__visual .bankcard--graphite {
+    right: -10px;
+    top: 70px;
+  }
+
+  .hero__visual .bankcard--light {
+    left: 10px;
+    bottom: 0;
+  }
+
+  .bankcard__number {
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .stats {
+    gap: 14px;
+    padding-top: 20px;
+  }
+
+  .stats__num {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .cta__title {
+    font-size: 28px;
+  }
+
+  .plan {
+    padding: 24px 22px;
+  }
+
+  .footer {
+    padding: 50px 0 20px;
+  }
+}
+
+/* ---------- motion preferences ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
